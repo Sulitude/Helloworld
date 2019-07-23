@@ -232,7 +232,7 @@ document.getElementById("myH1").innerHTML="Welcome to my Homepage"; //javascipt
 ```cpp
 string &operator+(const string& A,const string& B) //cpp
 ```
-### 数学公式[^1]
+### 数学公式
 #### 1. Google Chart 服务器
 ##### 语法
 ```
@@ -270,7 +270,6 @@ string &operator+(const string& A,const string& B) //cpp
 [Markdown 语法练习](#Markdown 语法练习)
 ```  
 [Markdown 语法练习](#Markdown 语法练习)
-> 不区分大小写
     
 ### 分割线
 1. \*** 
