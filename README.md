@@ -15,12 +15,12 @@
 * [表格](#表格)
 * [块级引用](#块级引用)
 * [代码引用](#代码引用)
-* [数学引用](#数学引用)
+* [数学公式](#数学公式)
 * [diff语法](#diff语法)
 * [锚点](#锚点)
 * [分割线](#分割线)
 * [表情](#表情)
-* [参考文献](#参考文献)
+* [参考](#参考)
 ***
 ### 标题
 
@@ -232,35 +232,20 @@ document.getElementById("myH1").innerHTML="Welcome to my Homepage"; //javascipt
 ```cpp
 string &operator+(const string& A,const string& B) //cpp
 ```
-### 数学引用
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
-$\sum$
-$ \sum_1^n $
-$
-\int_0^1x^2dx
-$
-有些时候我们需要输入特殊的数学符号，比如∑∑、∏∏、∫∫、x−−√x​等，可以用下面的格式：
-$想要输入的公式$
-如：
-$\sum_1^n$→→∑n1∑1n​、$\int_0^1x^2dx$→→∫10x2dx∫01​x2dx
-其中“_”表示后面是下标，“^”表示后面是上标
-#### 语法
+### 数学公式[^1]
+#### 1. Google Chart 服务器
+##### 语法
 ```
-$$
-\mathbf{V}_1 \times \mathbf{V}_2 =  \begin{vmatrix} 
-\mathbf{i} & \mathbf{j} & \mathbf{k} \\
-\frac{\partial X}{\partial u} &  \frac{\partial Y}{\partial u} & 0 \\
-\frac{\partial X}{\partial v} &  \frac{\partial Y}{\partial v} & 0 \\
-\end{vmatrix}
-$$
+<img src="http://chart.googleapis.com/chart?cht=tx&chl= 在此插入Latex公式" >
 ```
-$$
-\mathbf{V}_1 \times \mathbf{V}_2 =  \begin{vmatrix} 
-\mathbf{i} & \mathbf{j} & \mathbf{k} \\
-\frac{\partial X}{\partial u} &  \frac{\partial Y}{\partial u} & 0 \\
-\frac{\partial X}{\partial v} &  \frac{\partial Y}{\partial v} & 0 \\
-\end{vmatrix}
-$$
+> 例：<br>
+    ` <img src="http://chart.googleapis.com/chart?cht=tx&chl= x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" style="border:none;"> `
+<img src="http://chart.googleapis.com/chart?cht=tx&chl= x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" style="border:none;">
+
+#### 2. forkosh服务器
+    (未整理)
+#### 3. MathJax引擎
+    (未整理)
 
 ### diff语法
 #### 语法
@@ -299,10 +284,10 @@ Github的Markdown语法支持添加emoji表情，输入不同的符号码（两�
 比如`:blush:`，可以显示:blush:。<br>
 具体每一个表情的符号码，可以查询GitHub的官方网页[http://www.emoji-cheat-sheet.com](http://www.emoji-cheat-sheet.com)。<br>
 ***
-### 参考文献
-1.[Markdown中文文档](https://markdown-zh.readthedocs.io/en/latest/)
-2.[果冻虾仁的Github](https://github.com/Sulitude/README/blob/master/README.md)
-3.
-4.
+### 参考
+1.[Markdown中文文档](https://markdown-zh.readthedocs.io/en/latest/)<br>
+2.https://github.com/Sulitude/README/blob/master/README.md<br>
+3. https://blog.csdn.net/xiahouzuoxin/article/details/26478179
+
 
 
